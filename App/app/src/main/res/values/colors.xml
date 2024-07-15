@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="layoutBackground">#317256</color>
+    <color name="imageView1Background">#FFC107</color>
+    <color name="imageView2Background">#8BC34A</color>
+    <color name="buttonBackground">#03A9F4</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+</resources>

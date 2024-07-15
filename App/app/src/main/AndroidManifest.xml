@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yourapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Declaring LoginActivity and setting it as the launcher activity -->
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Declaring MainActivity -->
+        <activity android:name=".MainActivity" />
+
+        <!-- Declaring CategoriesActivity -->
+        <activity android:name=".CategoriesActivity" />
+
+        <!-- Declaring TshirtActivity -->
+        <activity android:name=".TshirtActivity" />
+
+        <!-- Declaring PantsActivity -->
+        <activity android:name=".PantsActivity" />
+
+        <!-- Declaring GeneratedClothingActivity -->
+        <activity android:name=".GeneratedClothingActivity" />
+
+    </application>
+
+</manifest>
