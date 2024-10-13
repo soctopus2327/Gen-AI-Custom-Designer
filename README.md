@@ -1,6 +1,4 @@
-Myntra HackerRamp WeForShe 2024
-
-Team: Debug Divas
+# Kreashion
 
 Institute: Indira Gandhi Delhi Technical University For Women
 
